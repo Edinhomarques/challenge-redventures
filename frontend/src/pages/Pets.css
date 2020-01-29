@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
+#logoTranslate{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 81.5px;
+    top: 140px;
+
+    transform: rotate(-90deg);
+}
+hr {
+    position: absolute;
+    height: 410px;
+    left: 185px;
+    top: 260px;
+    border: 0.5px solid rgba(21, 87, 63, 0.414827);
+}
+
+#pets {
+    position: absolute;
+    width: 105px;
+    height: 86px;
+    left: 668px;
+    top: 80px;    
+
+    background: url('../assets/illustrations/dog.png');
+}
+span.contentText {
+    position: absolute;
+    width: 470px;
+    height: 90px;
+    left: 485px;
+    top: 217px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #6E6E6E;
+}
+span.subContent {
+    position: absolute;
+    width: 640px;
+    height: 39px;
+    left: 400px;
+    top: 304px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 39px;
+    /* identical to box height, or 279% */
+    
+    text-align: center;
+    
+    color: #6E6E6E;
+}
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardPet {
+    position: relative;
+    width: 215px;
+    height: 160px;
+
+    left: 490px;
+    top: 390px;
+
+    padding-top: 50px;
+    margin-left: 20px;
+
+    border-radius: 5px;
+
+
+    color: #6E6E6E;
+    background-color: #FFFFFF;
+}
+
+.cardPet:hover {
+    color: #FFFFFF;
+    background-color: #FD9872;;
+    
+}
+
+
+.cardPet#dog{
+    background-image: url('../assets/icons/grey/pet.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-origin: content-box;
+}
+.cardPet#dog:hover{
+    background-image: url('../assets/icons/white/pet.svg');
+}
+
+.cardPet#noDog{
+    background-image: url('../assets/icons/grey/no-answer.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-origin: content-box;
+}
+.cardPet#noDog:hover{
+    background-image: url('../assets/icons/white/no-answer.svg');
+}
+
+/*
+.sun {
+    position: absolute;
+    height: 34px; 
+    left: 12.09%; 
+    right: 11.93%; 
+    top: calc(50% - 34px/2 + 46px); 
+  
+    font-family: Montserrat; 
+    font-style: normal; 
+    font-weight: 200; 
+    font-size: 16px; 
+    line-height: 34px; 
+    
+    text-align: center; 
+}*/
+/* button group */
+.button-group-pet{
+    position: relative;
+    top: 500px;
+    display: grid;
+    
+    grid-template-columns: 200px 200px;
+    /* gap: 200px; */
+    grid-column-gap: 150px
+}
+
+.default-button-pet{
+    position: relative;
+    width: 170px;
+    height: 50px;
+    top: 120px;
+    
+    border: 1px solid #15573F;
+    border-radius: 28px;
+    
+    color: #15573F;
+}
+.default-button-pet:hover {
+    background: #15573F;
+    color: #FFFFFF;
+}

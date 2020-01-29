@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
+#logoTranslate{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 81.5px;
+    top: 140px;
+
+    transform: rotate(-90deg);
+}
+hr {
+    position: absolute;
+    height: 410px;
+    left: 185px;
+    top: 260px;
+    border: 0.5px solid rgba(21, 87, 63, 0.414827);
+}
+
+#sun {
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    left: 657px;
+    top: 61px;
+    background: url('../assets/illustrations/sun.png');
+}
+span.contentText {
+    position: absolute;
+    width: 470px;
+    height: 90px;
+    left: 485px;
+    top: 217px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #6E6E6E;
+}
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 215px;
+    height: 160px;
+    left: 368px;
+    top: 372px;
+    padding-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.card:hover {
+    background-color: #FD9872;
+    color: #FFFFFF;
+}
+
+
+.card#highSun{
+    background-image: url('../assets/icons/coral/high-sun.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-origin: content-box;
+}
+.card#highSun:hover{
+    background-image: url('../assets/icons/white/high-sun.svg');
+}
+
+.card#lowSun{
+    background-image: url('../assets/icons/coral/low-sun.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-origin: content-box;
+}
+.card#lowSun:hover{
+    background-image: url('../assets/icons/white/low-sun.svg');
+}
+
+.card#noSun{
+    background-image: url('../assets/icons/coral/no-answer.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-origin: content-box;
+}
+
+.card#noSun:hover{
+    background-image: url('../assets/icons/white/no-answer.svg');
+}
+
+.textCard {
+    position: absolute;
+    height: 34px; 
+    left: 12.09%; 
+    right: 11.93%; 
+    top: calc(50% - 34px/2 + 46px); 
+  
+    font-family: Montserrat; 
+    font-style: normal; 
+    font-weight: 200; 
+    font-size: 16px; 
+    line-height: 34px; 
+    
+    text-align: center; 
+}
+/* button group */
+.button-group{
+    position: relative;
+    top: 500px;
+    display: grid;
+    
+    grid-template-columns: 200px 200px;
+    /* gap: 200px; */
+    grid-column-gap: 300px
+}
+
+.default-button {
+    position: relative;
+    width: 170px;
+    height: 50px;
+    left: -310px;
+    top: 120px;
+    
+    border: 1px solid #15573F;
+    border-radius: 28px;
+    
+    color: #15573F;
+}
+.default-button:hover {
+    background: #15573F;
+    color: #FFFFFF;
+}
