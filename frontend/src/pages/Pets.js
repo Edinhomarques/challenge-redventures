@@ -27,7 +27,7 @@ export default function Pets({ history }){
                     
                     <div className="button-group-pet">
                         <button className='default-button-pet' onClick={back}>previous</button>
-                        <Link to='/'>
+                        <Link to='/Plants'>
                             <button className='default-button-pet'>Next</button>
                         </Link>
                     </div>

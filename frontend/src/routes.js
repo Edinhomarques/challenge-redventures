@@ -4,7 +4,7 @@ import Water from './pages/Water'
 import Home from './pages/Home';
 import Sunlight from './pages/Sunlight'
 import Pets from './pages/Pets'
-
+import Plants from './pages/Plants'
 export default function Routes() {
     return (
         //switch garante que apenas uma rota seja executada por vez
@@ -14,6 +14,7 @@ export default function Routes() {
                 <Route path="/Sunlight"  component={Sunlight} />
                 <Route path="/water"  component={Water} />
                 <Route path="/pets"  component={Pets} />
+                <Route path="plants" component={Plants}/>
               
             </Switch>
         </BrowserRouter>
